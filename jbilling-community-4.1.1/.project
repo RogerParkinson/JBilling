@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>enterprise</name>
+	<name>jbilling-community-4.1.1</name>
 	<comment></comment>
 	<projects>
 	</projects>
 	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.wst.common.project.facet.core.builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.wst.common.project.facet.core.builder</name>
 			<arguments>
@@ -26,7 +31,7 @@
 		<link>
 			<name>.link_to_grails_plugins</name>
 			<type>2</type>
-			<locationURI>GRAILS_ROOT/2.4.3/projects/jbilling-telco-4.0.0/plugins</locationURI>
+			<locationURI>GRAILS_ROOT/2.5.6/projects/jbilling-community-4.1.1/plugins</locationURI>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -26,7 +26,7 @@ import com.sapienter.jbilling.server.user.UserBL;
 import com.sapienter.jbilling.server.user.db.UserDTO;
 import com.sapienter.jbilling.server.user.permisson.db.RoleDTO;
 
-import grails.plugin.springsecurity.SpringSecurityService;
+//import grails.plugin.springsecurity.SpringSecurityService;
 import grails.plugin.springsecurity.SpringSecurityUtils;
 
 import org.springframework.dao.DataAccessException;
@@ -65,13 +65,13 @@ public class CompanyUserDetailsService implements GrailsUserDetailsService {
         NO_AUTHORITIES.add(new GrantedAuthorityImpl(SpringSecurityUtils.NO_ROLE));
     }
 
-    private SpringSecurityService springSecurityService;
+    private Object springSecurityService;
 
-    public SpringSecurityService getSpringSecurityService() {
+    public Object getSpringSecurityService() {
         return springSecurityService;
     }
 
-    public void setSpringSecurityService(SpringSecurityService springSecurityService) {
+    public void setSpringSecurityService(Object springSecurityService) {
         this.springSecurityService = springSecurityService;
     }
 

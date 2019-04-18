@@ -5,12 +5,12 @@ public class CheckDBConnection {
     //DB Ports
     private static final String MYSQL_PORT = "3306";
     private static final String MSSQL_PORT = "1433";
-    private static final String POSTGRES_PORT = "5432";
     private static final String ORACLE_PORT = "1521";
 
     // DB Urls
     private static final String MYSQL_URL = "jdbc:mysql://localhost:" + MYSQL_PORT + "/";
-    private static final String MSSQL_URL = "jdbc:microsoft:sqlserver://localhost:" + MSSQL_PORT + "/";
+    private static final String POSTGRES_PORT = "5432";
+	private static final String MSSQL_URL = "jdbc:microsoft:sqlserver://localhost:" + MSSQL_PORT + "/";
     private static final String POSTGRES_URL = "jdbc:postgresql://localhost:" + POSTGRES_PORT + "/";
     private static final String ORACLE_URL = "jdbc:oracle://localhost:" + ORACLE_PORT + "/";
 
